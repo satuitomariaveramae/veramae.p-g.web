@@ -1,0 +1,170 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fafafa;
+    color: #000000;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #CBC5C5;
+    padding: 20px;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.logo h1 {
+    margin: 0;
+    font-size: 2em;
+    color: #000000;
+}
+
+.logo a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.search {
+    flex-grow: 1;
+    margin: 0 20px;
+}
+
+.search input {
+    width: 100%;
+    max-width: 400px;
+    padding: 10px;
+    border: 1px solid #e0e0e0;
+    border-radius: 5px;
+    background-color: #ffffff;
+    color: #000000;
+}
+
+.icons {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.icons a {
+    color: #333;
+    font-size: 1.5rem;
+    transition: color 0.3s;
+    text-decoration: none;
+}
+
+.icons a:hover {
+    color: #555;
+}
+
+.form {
+    width: 400px;
+    background: white;
+    color: #333;
+    border-radius: 12px;
+    padding: 30px 40px;
+    margin: 60px auto; 
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); 
+}
+
+.form h1 {
+    font-size: 36px;
+    text-align: center;
+    margin-top: 0%;
+    margin-bottom: 0%;
+}
+
+.form .input-box {
+    position: relative;
+    width: 100%;
+    height: 25px;
+    margin: 30px 0;
+}
+
+.input-box input {
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 2px solid #333;
+    border-radius: 40px;
+    font-size: 16px;
+    color: #333;
+    padding: 20px 45px 20px 20px;
+}
+
+.input-box input::placeholder {
+    color: #333;
+}
+
+.input-box i {
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 20px;
+}
+
+.form .remember-forgot {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14.5px;
+    margin: -15px 0 15px;
+}
+
+.remember-forgot label input {
+    accent-color: #333;
+    margin-right: 3px;
+}
+
+.remember-forgot a {
+    color: #333;
+    text-decoration: none;
+}
+
+.remember-forgot a:hover {
+    text-decoration: underline;
+}
+
+.form .btn {
+    width: 100%;
+    height: 45px;
+    background: #CBC5C5;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    box-shadow: 0 0 10px #fff;
+    cursor: pointer;
+    font-size: 16px;
+    color: white;
+    font-weight: 600;
+    transition: background-color 0.3s ease;
+}
+
+.form .btn:hover {
+    background-color: #555;
+}
+
+
+.form .signup-link {
+    font-size: 14.5px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.signup-link p a {
+    color: #333;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.signup-link p a:hover {
+    text-decoration: underline;
+    margin-bottom: 0%;
+}
